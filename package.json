@@ -1,0 +1,13 @@
+{
+  "name": "advent-of-code-2023",
+  "version": "1.0.0",
+  "description": "Solutions for advent of code 2023",
+  "scripts": {
+    "start": "node -r dotenv/config index.js"
+  },
+  "author": "Michael Foster",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
