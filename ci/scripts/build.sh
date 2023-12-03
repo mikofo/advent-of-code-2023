@@ -1,4 +1,6 @@
 #!/bin/sh
 set -e
 
-npm install
+npm install -g yarn
+yarn install
+yarn jest
