@@ -3,10 +3,11 @@
 ## Dependencies
 
 - node: preferably 18 and up
+- yarn (locally, but added in build script)
 
 ## Installing
 
-- npm install
+- yarn install
 
 # Running
 
@@ -14,4 +15,7 @@ This Repo follows the spec [outlined here](https://github.com/mattcl/aoc-benchma
 
 Once dependencies are installed and env variables are set, you can run with the following command:
 
-`npm start`
+`yarn start`
+
+# Tests
+`yarn jest`
