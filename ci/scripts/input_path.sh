@@ -11,6 +11,13 @@ fi
 
 # Zero-pad the day to 2 digits
 padded=$(printf "%02d" "$AOC_DAY")
+expected="inputs/day${padded}.txt"
 
-# Provide the input file path relative to the project root
-echo "inputs/day${padded}.txt"
+# The specification says that if an input does not exist for a given day, we
+# need to exit with a nonzero code.
+if [ -f "$expected" ]; then
+    echo "$expected"
+else
+    echo "no input for day ${AOC_DAY}"
+    exit 1
+fi
