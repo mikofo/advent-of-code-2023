@@ -18,7 +18,7 @@ function solve(input) {
 
   rows.forEach((row, rIndex) => {
     const digitReg = new RegExp(/\d+/g);
-    let sum = 0;
+    let m;
     while ((m = digitReg.exec(row))) {
       const digit = m[0];
       for (let i = 0; i < digit.length; i++) {

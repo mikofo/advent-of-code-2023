@@ -13,6 +13,7 @@ const reg = new RegExp(`(${Object.keys(words).join("|")})|\\d`, "g");
 
 function parseLine(line) {
   let digits = [];
+  let m;
   while ((m = reg.exec(line))) {
     digits.push(m[0]);
     reg.lastIndex = m.index + 1;
