@@ -2,7 +2,6 @@
 
 ## Dependencies
 
-- node: preferably 18 and up
 - bun (locally, but added in build script)
 
 ## Installing
