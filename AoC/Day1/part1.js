@@ -1,5 +1,5 @@
 function parseLine(line) {
-  digits = line.match(/\d/g);
+  const digits = line.match(/\d/g);
   if (digits.length === 0) return 0;
   if (digits.length === 1) return parseInt(digits[0] + digits[0]);
   return parseInt(digits[0] + digits[digits.length - 1]);
