@@ -1,14 +1,13 @@
 {
-  "name": "advent-of-code-2023",
+  "name": "mikofo-advent-of-code-2023-js",
   "version": "1.0.0",
   "description": "Solutions for advent of code 2023",
-  "scripts": {
-    "start": "node -r dotenv/config index.js"
-  },
   "author": "Michael Foster",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.3.1",
     "jest": "^29.7.0"
-  }
+  },
+  "module": "index.js",
+  "type": "module"
 }
