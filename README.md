@@ -3,11 +3,11 @@
 ## Dependencies
 
 - node: preferably 18 and up
-- yarn (locally, but added in build script)
+- bun (locally, but added in build script)
 
 ## Installing
 
-- yarn install
+- bun install
 
 # Running
 
@@ -15,7 +15,7 @@ This Repo follows the spec [outlined here](https://github.com/mattcl/aoc-benchma
 
 Once dependencies are installed and env variables are set, you can run with the following command:
 
-`yarn start`
+`bun index.js`
 
 # Tests
-`yarn jest`
+`bun jest`
