@@ -1,8 +1,15 @@
 function parseLine(line) {
-  const digits = line.match(/\d/g);
-  if (digits.length === 0) return 0;
-  if (digits.length === 1) return parseInt(digits[0] + digits[0]);
-  return parseInt(digits[0] + digits[digits.length - 1]);
+  let r = null;
+  let l = null;
+  let i = 0;
+  while (r === null || l === null) {
+    if (r === null && !isNaN(line[i])) r = line[i];
+    if (l === null && !isNaN(line[line.length - 1 - i]))
+      l = line[line.length - 1 - i];
+    i++;
+  }
+
+  return parseInt(r + l);
 }
 
 function solve(input) {
