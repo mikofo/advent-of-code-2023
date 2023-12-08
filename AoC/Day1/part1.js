@@ -13,10 +13,7 @@ function parseLine(line) {
 }
 
 function solve(input) {
-  return input
-    .split("\n")
-    .filter((item) => item)
-    .reduce((acc, line) => acc + parseLine(line), 0);
+  return input.reduce((acc, line) => acc + parseLine(line), 0);
 }
 
 module.exports = solve;
