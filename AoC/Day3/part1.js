@@ -2,9 +2,7 @@ function isSymbol(char) {
   return isNaN(parseInt(char, 10)) && char !== ".";
 }
 
-function solve(input) {
-  const rows = input.split("\n").filter((item) => item);
-
+function solve(rows) {
   function isSymbolAdjacent(row, column, rowLength) {
     for (let i = row - 1; i <= row + 1; i++) {
       for (let j = column - 1; j <= column + 1; j++) {
