@@ -10,10 +10,7 @@ function getPoints(game) {
 }
 
 function solve(input) {
-  return input
-    .split("\n")
-    .filter((item) => item)
-    .reduce((acc, line, index) => acc + getPoints(line), 0);
+  return input.reduce((acc, line, index) => acc + getPoints(line), 0);
 }
 
 module.exports = solve;

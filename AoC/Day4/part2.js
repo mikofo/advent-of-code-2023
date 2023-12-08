@@ -15,10 +15,7 @@ function solve(input) {
     });
   }
 
-  input
-    .split("\n")
-    .filter((item) => item)
-    .forEach((line, index) => checkScratchcards(line, index + 1));
+  input.forEach((line, index) => checkScratchcards(line, index + 1));
 
   return Object.values(copies).reduce((acc, val) => acc + val, 0);
 }

@@ -11,13 +11,10 @@ function isPossible(games) {
 }
 
 function solve(input) {
-  return input
-    .split("\n")
-    .filter((item) => item)
-    .reduce(
-      (acc, line, index) => acc + (isPossible(line, index + 1) ? index + 1 : 0),
-      0
-    );
+  return input.reduce(
+    (acc, line, index) => acc + (isPossible(line, index + 1) ? index + 1 : 0),
+    0
+  );
 }
 
 module.exports = solve;
