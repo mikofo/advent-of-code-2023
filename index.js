@@ -1,4 +1,3 @@
-require("dotenv").config();
 const solutions = require("./AoC");
 
 const options = {
@@ -9,8 +8,9 @@ const options = {
 
 Bun.file(options.input)
   .text()
-  .then((input) => {
+  .then((file) => {
     const solution = solutions[options.day];
+    const input = file.split("\n").filter((item) => item);
 
     if (!solution) {
       console.log("not implemented");

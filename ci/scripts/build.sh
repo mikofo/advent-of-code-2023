@@ -3,7 +3,6 @@ set -ex
 
 bun install
 bun build index.js --compile --target bun --outfile mikofo-advent-of-code-2023-js
-bun jest
 
 # step out of the repo dir
 cd ../
