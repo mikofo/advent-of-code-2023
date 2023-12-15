@@ -17,8 +17,5 @@ Bun.file(options.input)
       return;
     }
 
-    const partOne = solution.part1(input);
-    const partTwo = solution.part2(input);
-
-    console.log(JSON.stringify({ part_one: partOne, part_two: partTwo }));
+    console.log(solution(input));
   });
