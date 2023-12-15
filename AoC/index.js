@@ -4,4 +4,5 @@ module.exports = {
   3: require("./Day3"),
   4: require("./Day4"),
   5: require("./Day5"),
+  6: require("./Day6"),
 };
