@@ -1,0 +1,106 @@
+[
+  [
+    {
+      "line": "50 98 2",
+      "source": { "start": 98, "end": 99 },
+      "dest": { "start": 50, "end": 51 }
+    },
+    {
+      "line": "52 50 48",
+      "source": { "start": 50, "end": 97 },
+      "dest": { "start": 52, "end": 99 }
+    }
+  ],
+  [
+    {
+      "line": "0 15 37",
+      "source": { "start": 15, "end": 51 },
+      "dest": { "start": 0, "end": 36 }
+    },
+    {
+      "line": "37 52 2",
+      "source": { "start": 52, "end": 53 },
+      "dest": { "start": 37, "end": 38 }
+    },
+    {
+      "line": "39 0 15",
+      "source": { "start": 0, "end": 14 },
+      "dest": { "start": 39, "end": 53 }
+    }
+  ],
+  [
+    {
+      "line": "49 53 8",
+      "source": { "start": 53, "end": 60 },
+      "dest": { "start": 49, "end": 56 }
+    },
+    {
+      "line": "0 11 42",
+      "source": { "start": 11, "end": 52 },
+      "dest": { "start": 0, "end": 41 }
+    },
+    {
+      "line": "42 0 7",
+      "source": { "start": 0, "end": 6 },
+      "dest": { "start": 42, "end": 48 }
+    },
+    {
+      "line": "57 7 4",
+      "source": { "start": 7, "end": 10 },
+      "dest": { "start": 57, "end": 60 }
+    }
+  ],
+  [
+    {
+      "line": "88 18 7",
+      "source": { "start": 18, "end": 24 },
+      "dest": { "start": 88, "end": 94 }
+    },
+    {
+      "line": "18 25 70",
+      "source": { "start": 25, "end": 94 },
+      "dest": { "start": 18, "end": 87 }
+    }
+  ],
+  [
+    {
+      "line": "45 77 23",
+      "source": { "start": 77, "end": 99 },
+      "dest": { "start": 45, "end": 67 }
+    },
+    {
+      "line": "81 45 19",
+      "source": { "start": 45, "end": 63 },
+      "dest": { "start": 81, "end": 99 }
+    },
+    {
+      "line": "68 64 13",
+      "source": { "start": 64, "end": 76 },
+      "dest": { "start": 68, "end": 80 }
+    }
+  ],
+  [
+    {
+      "line": "0 69 1",
+      "source": { "start": 69, "end": 69 },
+      "dest": { "start": 0, "end": 0 }
+    },
+    {
+      "line": "1 0 69",
+      "source": { "start": 0, "end": 68 },
+      "dest": { "start": 1, "end": 69 }
+    }
+  ],
+  [
+    {
+      "line": "60 56 37",
+      "source": { "start": 56, "end": 92 },
+      "dest": { "start": 60, "end": 96 }
+    },
+    {
+      "line": "56 93 4",
+      "source": { "start": 93, "end": 96 },
+      "dest": { "start": 56, "end": 59 }
+    }
+  ]
+]
